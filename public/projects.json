@@ -4,7 +4,7 @@
         "type":"projet personnel",
         "text": "page principale du site personnel d'Anibal Juarez",
         "images": ["website.png"],
-        "github": "https://github.com/anibal-JUAREZ/website",
+        "github": "https://github.com/anibal-JUAREZ/portfolio-anibal",
         "title": "Mon Site Personnel",
         "logo":"my-website.png",
         "technologies":["react", "css"]
