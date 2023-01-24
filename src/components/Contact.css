@@ -1,0 +1,97 @@
+.main-title {
+    font-family: 'Exo', sans-serif;
+    text-transform:capitalize;
+    font-size: 2.5rem;
+    margin: 0;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg,#1e3791 0%,#2948b1 40%,#3153c6 55%,#385fda 60%);
+    background-image: linear-gradient(90deg,#2ca2b4,#5598de 24%,#7f87ff 45%);
+    color: transparent; 
+  
+}
+
+.contact-section{
+    margin:1rem;
+    /* display: flex; */
+    box-shadow:2px 4px 12px rgb(0 0 0 / 8%);
+    
+   
+    padding: 1rem;
+    /* background: #01012a; */
+ }
+
+ .card-section{
+    
+     width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    
+ }
+
+ .information-contact{
+   margin-left: 6rem;
+   margin-top: 3rem;
+ }
+
+ .information-title{
+    font-family: 'Exo', sans-serif;
+    font-size: 1rem;
+ }
+
+ .contact-card{
+     width: 25%;
+     margin-top: 1rem;
+     text-align: center;
+     box-shadow:2px 4px 12px rgb(0 0 0 / 8%);
+     padding:1rem;
+     border-radius: 1rem;
+ }
+
+
+ .contact-card img{
+    width: 15%;
+    padding:1rem;
+} 
+
+.contact-card p,
+.contact-card a{
+    font-family: 'Exo', sans-serif;
+}
+
+/* For large devices */
+ @media screen and (max-width:992px){
+    .card-section{
+        flex-direction: column;
+    }
+    .contact-card{
+        width: 60%;
+        margin: 1rem auto;
+    }
+} 
+
+
+/* 
+@media screen and (max-width:576px){
+    .card-section{
+        flex-direction: column;
+    }
+    .contact-card{
+        width: 100%;
+    }
+    
+}
+
+/* For small devices */
+/*@media screen and (max-width:350px){
+    .card-section{
+        flex-direction: column;
+    }
+    .contact-card{
+        width: 100%;
+    }
+} */

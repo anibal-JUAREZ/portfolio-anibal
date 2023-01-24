@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "type":"projet personnel",
+        "text": "page principale du site personnel d'Anibal Juarez",
+        "images": ["website.png"],
+        "github": "https://github.com/anibal-JUAREZ/website",
+        "title": "Mon Site Personnel",
+        "logo":"my-website.png",
+        "technologies":["react", "css"]
+      },
+    {
+        "id": 2,
+        "title": "Food API",
+        "type":"projet personnel",
+        "images": ["foodapi.png"],
+        "github": "https://github.com/anibal-JUAREZ/portfolio/tree/main/FOOD%20API",
+        "text": "image de nourriture",
+        "logo":"api.png",
+        "technologies":["html", "css", "js", "bootstrap"]
+      },
+
+      {
+        "id": 3,
+        "title": "To-Do List",
+        "type":"projet personnel",
+        "images": ["todolist.png"],
+        "text": "image de la liste de tâches",
+        "github": "https://github.com/anibal-JUAREZ/portfolio/tree/main/TO-DO-LIST",
+        "logo":"tasks.png",
+        "technologies":["html", "css", "js", "bootstrap"]
+      },
+      {
+        "id": 4,
+        "images": ["quizz.png"],
+        "type":"projet personnel",
+        "text": "image de la première question à répondre",
+        "github": "https://github.com/anibal-JUAREZ/portfolio/tree/main/QUIZZ-PORTFOLIO",
+        "title": "Quiz",
+        "logo":"quiz.png",
+        "technologies":["html", "css", "js", "bootstrap"]
+      },
+      {
+        "id": 5,
+        "images": [],
+        "type":"stage",
+        "text": "",
+        "links": ["https://gaea21.org/login_universel", "https://gaea21.org/QuiSommesNous/univers_gaea"],
+        "title": "Intégration des pages du site web gaea21",
+        "logo":"front-end.png",
+        "github":"",
+        "technologies":["react", "sass", "symfony"]
+      },
+      {
+        "id": 6,
+        "images": ["dashboard.png", "job-offer.png","offer-section.png"],
+        "type":"stage",
+        "text": "",
+        "links": "",
+        "title": "Interface d'administration des offres d'emploi ",
+        "logo":"backend.png",
+        "github":"",
+        "technologies":["react", "bootstrap", "symfony"]
+      }
+
+]

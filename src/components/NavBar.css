@@ -1,0 +1,144 @@
+li{
+    list-style: none;
+}
+
+
+.nav__item a{
+    text-decoration: none;
+    color: #f5f5f7;
+    opacity:0.8;
+    text-transform: uppercase;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+}
+.nav__item  a:not(.nav__brand):not(.icons):hover{
+    opacity: 1;
+    
+}
+/* .nav__item  a:not(.icons)::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #EBA048;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav__item a:hover:not(.nav__brand):not(.icons)::after{
+    
+    width: 100%;
+} */
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* height: 9vh; */
+    /* position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;  */
+    background-color: #313132;
+    margin: 0 auto; 
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    /* background: #6482C7; */
+}
+
+.nav__brand{
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    /* font-family: 'Trirong', serif; */
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #f5f5f7;
+    opacity:0;
+    
+}
+
+.nav__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+   
+}
+
+.nav__toggler div{
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: #000;
+    transition: 0.4s ease-in;
+}
+
+.nav__toggler{
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .nav__toggler{
+        display: block;
+    }
+
+    .nav__menu{
+        position: fixed; 
+        margin: 0 auto;
+        z-index: 0;
+        top: 7vh;
+        right: 0;
+        width: 50%;
+        height: 100vh;
+        background: #313132; 
+        flex-direction: column;
+        transform: translateX(100%);
+       
+        /* transition: 0.5s ease-in; */
+    }
+
+    .nav__brand{
+        color: #fff;
+        opacity: 1;
+        margin-left: -5rem;
+    }
+    .nav{
+        background: #313132; 
+        justify-content:space-around;
+        padding:0.5rem 0;
+      
+    }
+    a{
+        color: #fff;
+    }
+
+    .nav__toggler div{
+        background: #fff;
+    }
+}
+
+/* Nav Active Class*/
+
+.nav__active{
+    transform: translateX(0);
+}
+
+/*Toggle Icon Animation */
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-7px, -6px);
+}
+

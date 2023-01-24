@@ -1,0 +1,70 @@
+.my_information{
+   margin:1rem;
+   display: flex;
+   box-shadow:2px 4px 12px rgb(0 0 0 / 8%);
+   /* background: #01012a; */
+}
+
+.my_information article:first-of-type{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color:#fff; */
+
+}
+
+.my_information article:first-of-type p{
+    font-family: 'Exo', sans-serif;
+    text-transform:capitalize;
+    font-size: 2.5rem;
+    margin: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg,#1e3791 0%,#2948b1 40%,#3153c6 55%,#385fda 60%);
+    background-image: linear-gradient(90deg,#2ca2b4,#5598de 24%,#7f87ff 45%);
+    color: transparent; 
+}
+
+.my_information article:first-of-type p:first-of-type,
+.my_information article:first-of-type p:last-of-type{
+    margin-left: -22rem;
+}
+
+
+
+
+.my_information article:last-of-type{
+    width: 53%;
+}
+
+.my_information article:last-of-type p{
+    font-family: 'Maven Pro', sans-serif;
+    text-align: justify;
+    font-size: 1rem;
+    /* color:#fff; */
+}
+
+
+/* For large devices */
+
+
+/* For medium devices */
+@media screen and (max-width:1093px){
+    .my_information{
+       flex-direction: column;
+    }
+
+    .my_information article:first-of-type{
+        width: 100%;
+    }
+    .my_information article:last-of-type{
+        width: 100%;
+        
+    }
+
+    .my_information article:last-of-type p{
+        padding: 1rem;
+    }
+}
