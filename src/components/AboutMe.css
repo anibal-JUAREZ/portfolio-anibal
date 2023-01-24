@@ -63,7 +63,11 @@
         width: 100%;
         
     }
-
+   
+    .my_information article:first-of-type p:first-of-type,
+    .my_information article:first-of-type p:last-of-type{
+        margin-left: -15rem;
+    }
     .my_information article:last-of-type p{
         padding: 1rem;
     }
