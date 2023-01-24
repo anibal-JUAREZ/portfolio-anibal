@@ -51,7 +51,7 @@
 
 
 /* For medium devices */
-@media screen and (max-width:1093px){
+@media screen and (max-width:992px){
     .my_information{
        flex-direction: column;
     }
@@ -68,10 +68,14 @@
     .my_information article:first-of-type p:last-of-type{
         margin-left: -16rem;
     }
-    .my_information article:first-of-type p{
-        font-size: 2rem;
-    }
+    
     .my_information article:last-of-type p{
         padding: 1rem;
+    }
+}
+
+@media screen and (max-width:460px){
+    .my_information article:first-of-type p:nth-child(2){
+        font-size: 1.8rem;
     }
 }
