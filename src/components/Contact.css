@@ -69,9 +69,10 @@
         flex-direction: column;
     }
     .contact-card{
-        width: 80%;
+        width: 100%;
         margin: 1rem auto;
     }
+   
 } 
 
 

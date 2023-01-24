@@ -16,7 +16,7 @@ import './Contact.css';
           <article className='contact-card'>
                 <img src='./images/contactSection/linkedin.png' alt='linkedin icon'/>
                 <p className='information-title'>LinkedIn</p>
-                <a href='https://www.linkedin.com/in/anibal-juarez/' target="_blank" rel="noopener noreferrer">lien vers le profil</a>
+                <a  href='https://www.linkedin.com/in/anibal-juarez/' target="_blank" rel="noopener noreferrer">lien vers le profil</a>
             </article>
 
             <article className='contact-card'>
