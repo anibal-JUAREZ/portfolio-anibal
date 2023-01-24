@@ -22,7 +22,7 @@ import './Contact.css';
             <article className='contact-card'>
                 <img src='./images/contactSection/telephone.png' alt='telephone icon'/>
                 <p className='information-title'>Téléphone</p>
-                <p>+33 07 82 21 51 87 </p>
+                <p>+33 7 82 21 51 87 </p>
             </article>
         </section>
        

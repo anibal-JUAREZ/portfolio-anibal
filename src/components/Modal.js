@@ -2,6 +2,7 @@ import React from 'react';
 import './Modal.css';
 
  const Modal = (props) => {
+     console.log(props.top)
      const closeWindowsHandler=()=>{
          props.closeWindowHandler();
      }
@@ -31,7 +32,7 @@ import './Modal.css';
   return (
     <>
         <div onClick={closeWindowsHandler} className='backdrop'></div>
-        <section className='modal-projets'>
+        <section className='modal-projets' style={{top:`${props.top}px`}}>
          
             <div onClick={closeWindowsHandler} className='close-button'><p>x</p></div>
             
