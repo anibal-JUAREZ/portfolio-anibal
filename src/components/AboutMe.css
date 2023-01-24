@@ -66,7 +66,10 @@
    
     .my_information article:first-of-type p:first-of-type,
     .my_information article:first-of-type p:last-of-type{
-        margin-left: -15rem;
+        margin-left: -16rem;
+    }
+    .my_information article:first-of-type p{
+        font-size: 2rem;
     }
     .my_information article:last-of-type p{
         padding: 1rem;
