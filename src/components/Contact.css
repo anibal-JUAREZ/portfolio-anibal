@@ -70,12 +70,23 @@
         align-items: center;
     }
     .contact-card{
-        width: 100%;
+        width: 80%;
         
     }
    
 } 
 
+@media screen and (max-width:460px){
+    .main-title {
+        margin-left: 1rem;
+        font-size: 2rem;
+    }
+    .contact-card{
+        width: 100%;
+        
+    }
+   
+} 
 
 /* 
 @media screen and (max-width:576px){
