@@ -46,7 +46,7 @@
       },
       {
         "id": 5,
-        "images": [],
+        "images": ["modalgaea.png"],
         "type":"stage",
         "text": "",
         "links": ["https://gaea21.org/login_universel", "https://gaea21.org/QuiSommesNous/univers_gaea"],
