@@ -23,6 +23,7 @@ import './Projects.css'
                         github={oneProject.github}
                         links={oneProject.links}
                         images={oneProject.images}
+                        demo={oneProject.demo}
                     />
                 )):(<p className='loading'>chargement en cours...</p>)}
             </section>

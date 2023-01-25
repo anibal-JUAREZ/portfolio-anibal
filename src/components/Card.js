@@ -30,6 +30,7 @@ import Modal from './Modal';
             closeWindowHandler={openModalHandler}
             images={props.images}
             top={projectCard.current.offsetTop}
+            demo={props.demo}
         />
         }
     </>

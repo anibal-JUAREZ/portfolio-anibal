@@ -10,6 +10,7 @@ import './Modal.css';
      let link;
      let pageLinks;
      let photos;
+     let demo;
      if(props.github){
          link = <a target="_blank" rel="noopener noreferrer" href={props.github}><img className='github-icon' src={`/images/technologies/github.png`} alt='github icon'/></a>;
          textLink="Code";
@@ -28,6 +29,9 @@ import './Modal.css';
          photos = props.images.map((image, index)=>(
             <img className='projects-modal' src={`/images/projects/${image}`} />
          ))
+     }
+     if(props.demo){
+         demo=<a target="_blank" rel="noopener noreferrer" href={props.demo}><img className='github-icon' src={`/images/technologies/link.png`} alt='link icon'/></a>
      }
   return (
     <>
@@ -53,6 +57,8 @@ import './Modal.css';
             {pageLinks}
             <p className='project-title'>{props.images.length>0 ? "Photos" : "" }</p>
             {photos}
+           { props.demo && <p className='project-title'>Demo</p>}
+            {demo}
         </section>
     </>
   )

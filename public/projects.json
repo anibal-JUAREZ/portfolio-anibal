@@ -3,11 +3,12 @@
         "id": 1,
         "type":"projet personnel",
         "text": "page principale du site personnel d'Anibal Juarez",
-        "images": ["website.png"],
+        "images": [],
         "github": "https://github.com/anibal-JUAREZ/portfolio-anibal",
         "title": "Mon Site Personnel",
         "logo":"my-website.png",
-        "technologies":["react", "css"]
+        "technologies":["react", "css"],
+        "demo":"https://anibal-juarez-portfolio.netlify.app/"
       },
     {
         "id": 2,
@@ -17,28 +18,31 @@
         "github": "https://github.com/anibal-JUAREZ/portfolio/tree/main/FOOD%20API",
         "text": "image de nourriture",
         "logo":"api.png",
-        "technologies":["html", "css", "js", "bootstrap"]
+        "technologies":["html", "css", "js", "bootstrap"],
+        "demo":""
       },
 
       {
         "id": 3,
         "title": "To-Do List",
         "type":"projet personnel",
-        "images": ["todolist.png"],
+        "images": [],
         "text": "image de la liste de tâches",
         "github": "https://github.com/anibal-JUAREZ/portfolio/tree/main/TO-DO-LIST",
         "logo":"tasks.png",
-        "technologies":["html", "css", "js", "bootstrap"]
+        "technologies":["html", "css", "js", "bootstrap"],
+        "demo":"https://phenomenal-semolina-ccacbb.netlify.app/"
       },
       {
         "id": 4,
-        "images": ["quizz.png"],
+        "images": [],
         "type":"projet personnel",
         "text": "image de la première question à répondre",
         "github": "https://github.com/anibal-JUAREZ/portfolio/tree/main/QUIZZ-PORTFOLIO",
         "title": "Quiz",
         "logo":"quiz.png",
-        "technologies":["html", "css", "js", "bootstrap"]
+        "technologies":["html", "css", "js", "bootstrap"],
+        "demo":"https://63d1135a486b70129aacb834--fluffy-cupcake-8c1ef5.netlify.app/"
       },
       {
         "id": 5,
@@ -49,7 +53,8 @@
         "title": "Intégration des pages du site web gaea21",
         "logo":"front-end.png",
         "github":"",
-        "technologies":["react", "sass", "symfony"]
+        "technologies":["react", "sass", "symfony"],
+        "demo":""
       },
       {
         "id": 6,
@@ -60,7 +65,8 @@
         "title": "Interface d'administration des offres d'emploi ",
         "logo":"backend.png",
         "github":"",
-        "technologies":["react", "bootstrap", "symfony"]
+        "technologies":["react", "bootstrap", "symfony"],
+        "demo":""
       }
 
 ]
