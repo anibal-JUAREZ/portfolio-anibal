@@ -58,13 +58,24 @@
     transform: scale(1.05);
 }
 
-svg{
+.svg-social{
+    width: 4rem;
+    height: 4rem;
+    padding:.2rem; 
+    cursor: pointer;
+}
+
+.svg-others{
     width: 3rem;
     height: 3rem;
     padding:1rem;
     cursor: pointer;
 }
 
+.contact-card .social-media{
+    text-decoration: none;
+    color: #000;
+}
 .github{
     color: #000;
 }
