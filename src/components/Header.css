@@ -41,7 +41,7 @@
 
 .information button{
     background-color:#0071e3;
-    border:1px solid #0071e3;
+    border:none;
     font-family: 'Maven Pro', sans-serif;
     color: #fff;
     padding: 8px 12px;
