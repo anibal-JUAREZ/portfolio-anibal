@@ -12,14 +12,14 @@
       },
     {
         "id": 2,
-        "title": "Food API",
+        "title": "REST countries API",
         "type":"projet personnel",
-        "images": ["foodapi.png"],
-        "github": "https://github.com/anibal-JUAREZ/portfolio/tree/main/FOOD%20API",
-        "text": "image de nourriture",
+        "images": [],
+        "github": "https://github.com/anibal-JUAREZ/REST-countries-API",
+        "text": "image de countries flag",
         "logo":"api.png",
-        "technologies":["html", "css", "js", "bootstrap"],
-        "demo":""
+        "technologies":["react", "css", "js"],
+        "demo":"https://640719e97956da0086ac26a8--zingy-tanuki-93db10.netlify.app/"
       },
 
       {
