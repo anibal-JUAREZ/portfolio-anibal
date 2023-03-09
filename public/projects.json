@@ -28,10 +28,10 @@
         "type":"projet personnel",
         "images": [],
         "text": "image de la liste de tâches",
-        "github": "https://github.com/anibal-JUAREZ/portfolio/tree/main/TO-DO-LIST",
+        "github": "https://github.com/anibal-JUAREZ/to-do-list",
         "logo":"tasks.png",
-        "technologies":["html", "css", "js", "bootstrap"],
-        "demo":"https://phenomenal-semolina-ccacbb.netlify.app/"
+        "technologies":["react", "css", "js"],
+        "demo":"https://visionary-faloodeh-882d50.netlify.app/"
       },
       {
         "id": 4,
