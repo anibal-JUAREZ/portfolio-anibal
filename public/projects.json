@@ -39,10 +39,10 @@
         "type":"projet personnel",
         "text": "image de la première question à répondre",
         "github": "https://github.com/anibal-JUAREZ/portfolio/tree/main/QUIZZ-PORTFOLIO",
-        "title": "Quiz",
-        "logo":"quiz.png",
-        "technologies":["html", "css", "js", "bootstrap"],
-        "demo":"https://63d1135a486b70129aacb834--fluffy-cupcake-8c1ef5.netlify.app/"
+        "title": "Task Management",
+        "logo":"task-management.png",
+        "technologies":["react", "css", "js"],
+        "demo":"https://graceful-bavarois-5d52bc.netlify.app/"
       },
       {
         "id": 5,
